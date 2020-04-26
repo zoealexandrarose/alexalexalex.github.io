@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie-edge">
+  <title>Speech Recognition</title>
+
+  <link rel="stylesheet" href="vrec.css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+
+  <!-- fadez -->
+  <style>
+  .fade-in {
+    animation: fadeIn ease 7s;
+    -webkit-animation: fadeIn ease 7s;
+    -moz-animation: fadeIn ease 7s;
+    -o-animation: fadeIn ease 7s;
+    -ms-animation: fadeIn ease 7s;
+  }
+  @keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+
+  @-moz-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+
+  @-webkit-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+
+  @-o-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+    }
+  }
+
+  @-ms-keyframes fadeIn {
+    0% {
+      opacity:0;
+    }
+    100% {
+      opacity:1;
+  }
+  </style>
+</head>
+
+<body>
+<h2>Alexa, who?</h2>
+<br>
+<div class="fade-in">
+<h1 style="font-size: 50px;">Meet Alex.</h1>
+</div>
+<div class="container">
+
+<!-- icon/button to be clicked on to initiate speech recognition -->
+  <i class="fa fa-microphone"></i>
+  <h3 class="content"></h3>
+</div>
+<br>
+<h3>(Click the microphone to ask him something!)</h3>
+
+<br>
+<footer><p>Created for CSMP Practical 2020
+<br>
+
+To be run in Google Chrome
+<br>
+<br>
+Zoë Alexandra Rose</p></footer>
+
+<script src="rec.js"></script>
+</body>
+
+</html>
