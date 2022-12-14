@@ -10,4 +10,5 @@ Words the app recognises/responds to:
 Web Speech API - best supported by Chrome 
 
 
-<img width="1140" alt="voice_rec_screen_shot" src="https://user-images.githubusercontent.com/59801811/207299572-58503f62-bc52-463a-88d7-8e0ef100b34e.png">
+
+<img width="1112" alt="Screenshot 2022-12-14 at 12 56 38" src="https://user-images.githubusercontent.com/59801811/207589338-3cf1a10b-5443-4132-9609-8bdc26ad4d6d.png">
