@@ -38,7 +38,7 @@ body {
   background: orange;
   border-radius: 50%;
   cursor: pointer;
-  margin-top: 1rem;
+  /* margin-top: 1rem; */
   float: right;
   width: 2rem;
   height: 2rem;
@@ -58,3 +58,4 @@ body {
     background-color: #ffffff;
     height:50px;
   }
+}
